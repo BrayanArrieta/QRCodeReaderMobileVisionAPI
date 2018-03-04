@@ -10,20 +10,25 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
-        <ImageView
-            android:id="@+id/imageView"
+        <!--<ImageView-->
+            <!--android:id="@+id/imageView"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:layout_width="300dp"-->
+            <!--android:layout_height="300dp" />-->
+        <SurfaceView
+            android:id="@+id/cameraPreview"
+            android:layout_width="350dp"
             android:layout_gravity="center_horizontal"
-            android:layout_width="300dp"
-            android:layout_height="300dp" />
-        
-        <Button
-            android:id="@+id/scanButton"
-            android:text="Scan"
-            android:layout_gravity="center_horizontal"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="350dp" />
+        <!--<Button-->
+            <!--android:id="@+id/scanButton"-->
+            <!--android:text="Scan"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
         <TextView
             android:id="@+id/resultTextView"
+            android:layout_marginTop="20dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"/>
